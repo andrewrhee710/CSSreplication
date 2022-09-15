@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather in Tokyo</title>
+        <style>
+            body {
+                text-align: center;
+            }
+
+            .button {
+                background-color: #2F5FD5;
+                border: none;
+                border-radius: 30px;
+                color: white;
+                padding: 20px 30px;
+                text-align: center;
+                font-size: 16px;
+                transition-duration: 0.4s;
+                cursor: pointer;
+            }
+
+            .button:hover {
+                background-color: white;
+                color: #2F5FD5;
+                border:2px solid #2F5FD5;
+            }
+
+            .weather {
+                background-color: white;
+                border: none;
+                padding: 10px 100px;
+            }
+
+            .weather:hover {
+                background-color:#FFFBEF;
+                border: #FFFBEF;
+                border-radius: 15px;
+                transition-duration: 0.4s;
+                cursor: default;
+                padding: 10px 100px;
+            }
+
+            .top {
+                color: #2F5FD5;
+                font-weight: bolder;
+                font-family: arial;
+            }
+
+            h3 {
+                font-size:large;
+            }
+
+            p {
+                font-family: Consolas;
+                font-size: 18px;
+                color: gray
+            }
+
+            #right_now {
+                font-size: 30px;
+                font-family: arial;
+                color: black;
+                line-height: 0.1em;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1 class="top">&#127780; <br> Currently 21° in Tokyo</h1>
+        <p id="right_now">13° / <b>23°</b></p>
+
+        <br>
+        <button class="weather">
+            <h3>&#127783; Tomorrow</h3>
+            <p>10° / <b>22°</b></p>
+        </button>
+        <br>
+
+        <button class="weather">
+            <h3>&#127781; Saturday</h3>
+            <p>15° / <b>17°</b></p>
+        </button>
+        <br>
+
+        <button class="weather">
+            <h3>&#127774; Sunday</h3>
+            <p>25° / <b>28°</b></p>
+        </button>
+
+        <br>
+        <br>
+        <button class="button">Change city</button>
+    </body>
+</html>
